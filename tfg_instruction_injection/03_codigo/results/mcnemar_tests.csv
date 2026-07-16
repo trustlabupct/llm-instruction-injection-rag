@@ -1,0 +1,6 @@
+comparacion,solo_C1,solo_C2,p_value,significativo_0.05,solo_C3,solo_C4,solo_C5
+C1 vs C2,2.0,3.0,1.0,False,,,
+C2 vs C3,,3.0,0.625,False,1.0,,
+C3 vs C4,,,0.00634765625,True,11.0,1.0,
+C4 vs C5,,,0.34375,False,,7.0,3.0
+C3 vs C5,,,0.0001220703125,True,14.0,,0.0

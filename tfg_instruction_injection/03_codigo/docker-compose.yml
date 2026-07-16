@@ -1,0 +1,40 @@
+# Levanta todo el banco de pruebas en cualquier máquina con Docker:
+#
+#     docker compose up --build
+#
+# La primera vez descarga el modelo llama3.1:8b (~5 GB) dentro del volumen de Ollama.
+# Cuando termine, abre http://localhost:8000
+#
+# Requisitos prácticos: ~8 GB de RAM libres para el modelo. La inferencia va por CPU
+# (más lenta que con GPU, pero funciona en cualquier equipo).
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: tfg_ollama
+    volumes:
+      - ollama_models:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  dashboard:
+    build: .
+    container_name: tfg_dashboard
+    environment:
+      - OLLAMA_URL=http://ollama:11434/api/chat
+      - OLLAMA_MODEL=llama3.1:8b
+      - DASH_HOST=0.0.0.0
+      - DASH_PORT=8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      ollama:
+        condition: service_started
+    restart: unless-stopped
+
+volumes:
+  ollama_models:
