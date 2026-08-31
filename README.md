@@ -37,7 +37,7 @@ que consigue a la vez el ataque más bajo (14,8 %) y la utilidad más alta (62,5
 ## Por dónde empezar
 
 - **Para leer el trabajo** → `01_memoria/memoria_tfg.docx`.
-- **Para preparar/seguir la defensa** → `02_presentacion/` (diapositivas + glosario).
+- **Para seguir la defensa** → `02_presentacion/` (diapositivas + glosario).
 - **Para ejecutar el experimento** → `03_codigo/README.md` (instrucciones con Docker o en local).
 
 ---
