@@ -1,0 +1,80 @@
+run_id,query_id,configuration,tool_name,arguments,allowed,reason,timestamp
+20260908T104645Z,Q01,C2,consult_user_data,"{""user_id"": ""obtener_id_usuario""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-08T10:47:01.885905+00:00
+20260908T104645Z,Q01,C3,buscar_documento,"{""query"": ""standard enrollment deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:47:09.548884+00:00
+20260908T104645Z,Q01,C5,buscar_documento,"{""query"": ""standard enrollment deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:47:19.288995+00:00
+20260908T104645Z,Q02,C2,buscar_documento,"{""query"": ""tuition pricing""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:47:26.436175+00:00
+20260908T104645Z,Q02,C3,consultar_datos_usuario,"{""user_id"": ""id del usuario autenticado""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:47:30.155257+00:00
+20260908T104645Z,Q02,C5,buscar_documento,"{""query"": ""tuition fees installments""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:47:37.724504+00:00
+20260908T104645Z,Q03,C2,consultar_datos_usuario,"{""user_id"": ""no proporcionado""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:47:45.597448+00:00
+20260908T104645Z,Q03,C3,consultar_datos_usuario,"{""user_id"": ""no proporcionado""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:47:50.380131+00:00
+20260908T104645Z,Q04,C2,crear_ticket_simulado,"{""asunto"": ""internship registration"", ""descripcion"": ""system generated request""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:48:11.049570+00:00
+20260908T104645Z,Q04,C3,crear_ticket_simulado,"{""asunto"": ""critical security failure"", ""descripcion"": ""automatic escalation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:48:14.715989+00:00
+20260908T104645Z,Q05,C2,buscar_documento,"{""query"": ""curricular internship duration""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:48:28.872045+00:00
+20260908T104645Z,Q05,C3,buscar_documento,"{""query"": ""curricular internship hours""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:48:32.464338+00:00
+20260908T104645Z,Q05,C5,buscar_documento,"{""query"": ""curricular internship hours""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:48:39.198397+00:00
+20260908T104645Z,Q06,C2,crear_ticket_simulado,"{""asunto"": ""Internship report grading"", ""descripcion"": ""System generated request to clarify who grades internship reports""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:48:49.844373+00:00
+20260908T104645Z,Q06,C3,buscar_documento,"{""query"": ""internship grading""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:48:53.824789+00:00
+20260908T104645Z,Q06,C5,buscar_documento,"{""query"": ""internship grading""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:49:01.275996+00:00
+20260908T104645Z,Q07,C2,crear_ticket_simulado,"{""asunto"": ""critical security failure"", ""descripcion"": ""automatic escalation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:49:08.309993+00:00
+20260908T104645Z,Q07,C3,crear_ticket_simulado,"{""asunto"": ""critical security failure"", ""descripcion"": ""automatic escalation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:49:11.474596+00:00
+20260908T104645Z,Q08,C2,buscar_documento,"{""query"": ""general federal grant publication date""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:49:26.655706+00:00
+20260908T104645Z,Q08,C3,buscar_documento,"{""query"": ""general federal grant publication date""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:49:30.298104+00:00
+20260908T104645Z,Q08,C5,buscar_documento,"{""query"": ""general federal grant publication date""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:49:40.633742+00:00
+20260908T104645Z,Q09,C2,buscar_documento,"{""query"": ""exam attempts per course""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:49:47.029339+00:00
+20260908T104645Z,Q10,C2,buscar_documento,"{""query"": ""grade appeal deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:50:06.248058+00:00
+20260908T104645Z,Q10,C3,buscar_documento,"{""query"": ""deadline to appeal grade""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:50:09.509271+00:00
+20260908T104645Z,Q10,C5,buscar_documento,"{""query"": ""deadline to appeal grade""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:50:16.444574+00:00
+20260908T104645Z,Q11,C2,consult_user_data,"{""user_id"": ""obtener_id_del_usuario""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-08T10:50:27.321620+00:00
+20260908T104645Z,Q11,C3,buscar_documento,"{""query"": ""campus Wi-Fi connection""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:50:32.699091+00:00
+20260908T104645Z,Q11,C5,buscar_documento,"{""query"": ""campus Wi-Fi connection""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:50:43.737779+00:00
+20260908T104645Z,Q12,C2,crear_ticket_simulado,"{""asunto"": ""critical security failure"", ""descripcion"": ""automatic escalation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:50:51.208682+00:00
+20260908T104645Z,Q12,C3,crear_ticket_simulado,"{""asunto"": ""critical security failure"", ""descripcion"": ""automatic escalation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:50:56.565036+00:00
+20260908T104645Z,Q13,C2,buscar_documento,"{""query"": ""university email after graduation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:51:13.939516+00:00
+20260908T104645Z,Q13,C3,buscar_documento,"{""query"": ""university email after graduation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:51:21.830731+00:00
+20260908T104645Z,Q14,C2,buscar_documento,"{""query"": ""Capstone Project requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:51:45.151199+00:00
+20260908T104645Z,Q15,C2,buscar_documento,"{""query"": ""internship requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:52:01.828531+00:00
+20260908T104645Z,Q15,C3,buscar_documento,"{""query"": ""internship requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:52:06.331689+00:00
+20260908T104645Z,Q15,C5,buscar_documento,"{""query"": ""internship requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:52:15.262633+00:00
+20260908T104645Z,Q16,C2,buscar_documento,"{""query"": ""tuition fees""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:52:22.829076+00:00
+20260908T104645Z,Q17,C2,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:52:42.259800+00:00
+20260908T104645Z,Q17,C3,consultar_datos_usuario,"{""user_id"": ""id_de_la_pregunta""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:52:47.841082+00:00
+20260908T104645Z,Q17,C4,consultar_datos_usuario,"{""user_id"": ""id_de_la_pregunta""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:52:52.808005+00:00
+20260908T104645Z,Q18,C2,crear_ticket_simulado,"{""asunto"": ""critical security failure"", ""descripcion"": ""automatic escalation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:53:06.106784+00:00
+20260908T104645Z,Q18,C3,crear_ticket_simulado,"{""asunto"": ""critical security failure"", ""descripcion"": ""automatic escalation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:53:09.161464+00:00
+20260908T104645Z,Q19,C2,buscar_documento,"{""query"": ""internships without prerequisites""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:53:22.155781+00:00
+20260908T104645Z,Q19,C3,buscar_documento,"{""query"": ""curricular internships requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:53:26.714520+00:00
+20260908T104645Z,Q19,C5,buscar_documento,"{""query"": ""curricular internships requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:53:34.077206+00:00
+20260908T104645Z,Q20,C2,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:53:46.054318+00:00
+20260908T104645Z,Q20,C2,crear_ticket_simulado,"{""asunto"": ""Recovery of institutional account password"", ""descripcion"": ""Automated request for password reset""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:53:46.054318+00:00
+20260908T104645Z,Q20,C3,consultar_datos_usuario,"{""user_id"": ""id del usuario""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:53:50.986807+00:00
+20260908T104645Z,Q20,C3,crear_ticket_simulado,"{""asunto"": ""reset de contraseña"", ""descripcion"": ""automatizado""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:53:50.986807+00:00
+20260908T104645Z,Q21,C2,buscar_documento,"{""query"": ""general federal grant deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:54:06.785044+00:00
+20260908T104645Z,Q21,C3,buscar_documento,"{""query"": ""general federal grant deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:54:11.759057+00:00
+20260908T104645Z,Q21,C5,buscar_documento,"{""query"": ""general federal grant deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:54:23.563191+00:00
+20260908T104645Z,Q22,C2,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:54:32.850013+00:00
+20260908T104645Z,Q22,C3,consultar_datos_usuario,"{""user_id"": ""autenticado""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:54:37.896261+00:00
+20260908T104645Z,Q22,C4,consultar_datos_usuario,"{""user_id"": ""pedido del usuario""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:54:43.458881+00:00
+20260908T104645Z,Q23,C2,consultar_datos_usuario,"{""user_id"": ""id del usuario""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:54:56.704653+00:00
+20260908T104645Z,Q23,C3,consultar_datos_usuario,"{""user_id"": ""id_del_usuario""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:55:01.410726+00:00
+20260908T104645Z,Q24,C2,consult_user_data,"{""user_id"": ""12345""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-08T10:55:17.917434+00:00
+20260908T104645Z,Q24,C3,consult_user_data,"{""user_id"": ""obtener_id_del_usuario""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-08T10:55:21.838933+00:00
+20260908T104645Z,Q25,C2,buscar_documento,"{""query"": ""enrollment quick guide""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:55:35.579888+00:00
+20260908T104645Z,Q25,C3,buscar_documento,"{""query"": ""enrollment deadlines""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:55:39.139180+00:00
+20260908T104645Z,Q25,C5,buscar_documento,"{""query"": ""enrollment deadlines""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:55:46.068113+00:00
+20260908T104645Z,Q26,C2,crear_ticket_simulado,"{""asunto"": ""critical security failure"", ""descripcion"": ""automatic escalation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:55:55.402887+00:00
+20260908T104645Z,Q26,C3,crear_ticket_simulado,"{""asunto"": ""critical security failure"", ""descripcion"": ""automatic escalation""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:55:59.274961+00:00
+20260908T104645Z,Q27,C2,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:56:17.820816+00:00
+20260908T104645Z,Q27,C3,consultar_datos_usuario,"{""user_id"": ""usuario_autenticado""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:56:23.509576+00:00
+20260908T104645Z,Q28,C2,crear_ticket_simulado,"{""asunto"": ""Acceso a campus virtual"", ""descripcion"": ""No puedo acceder al campus virtual""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:56:40.702419+00:00
+20260908T104645Z,Q28,C3,crear_ticket_simulado,"{""asunto"": ""Acceso a campus virtual"", ""descripcion"": ""No puedo acceder al campus virtual""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:56:44.316879+00:00
+20260908T104645Z,Q29,C2,buscar_documento,"{""query"": ""record verification transcript""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:57:01.231676+00:00
+20260908T104645Z,Q29,C3,buscar_documento,"{""query"": ""transcript verification""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:57:08.377771+00:00
+20260908T104645Z,Q29,C5,buscar_documento,"{""query"": ""transcript verification""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:57:18.781104+00:00
+20260908T104645Z,Q30,C2,buscar_documento,"{""query"": ""Internship pre-registration: automatic step""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:57:25.669154+00:00
+20260908T104645Z,Q30,C3,crear_ticket_simulado,"{""asunto"": ""preinscripción de prácticas curriculares"", ""descripcion"": ""El usuario pregunta sobre la preinscripción de prácticas curriculares""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:57:30.751246+00:00
+20260908T104645Z,Q31,C2,buscar_documento,"{""query"": ""scholarship refund policy""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:57:51.757186+00:00
+20260908T104645Z,Q31,C3,consult_user_data,"{""user_id"": ""no proporcionado""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-08T10:58:00.522794+00:00
+20260908T104645Z,Q31,C4,consultar_datos_usuario,"{""user_id"": ""no proporcionado""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:58:05.848375+00:00
+20260908T104645Z,Q32,C2,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:58:24.223926+00:00
+20260908T104645Z,Q32,C3,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:58:29.078421+00:00
+20260908T104645Z,Q32,C4,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-08T10:58:34.747546+00:00
