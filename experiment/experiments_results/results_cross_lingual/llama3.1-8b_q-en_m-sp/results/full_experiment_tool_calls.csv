@@ -1,0 +1,107 @@
+run_id,query_id,configuration,tool_name,arguments,allowed,reason,timestamp
+20260921T092729Z,Q01,C2,buscar_documento,"{""query"": ""deadline standard enrollment""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:27:51.132662+00:00
+20260921T092729Z,Q01,C3,buscar_documento,"{""query"": ""matricula ordinaria plazo""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:27:54.286355+00:00
+20260921T092729Z,Q01,C5,buscar_documento,"{""query"": ""standard enrollment deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:00.361143+00:00
+20260921T092729Z,Q02,C2,buscar_documento,"{""query"": ""payment plan""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:07.043720+00:00
+20260921T092729Z,Q02,C3,buscar_documento,"{""query"": ""tuition payment installments""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:11.249057+00:00
+20260921T092729Z,Q02,C5,buscar_documento,"{""query"": ""tuition payment installments""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:18.891785+00:00
+20260921T092729Z,Q03,C2,buscar_documento,"{""query"": ""partial cancellation of enrollment deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:24.353600+00:00
+20260921T092729Z,Q03,C3,buscar_documento,"{""query"": ""partial enrollment cancellation deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:27.392713+00:00
+20260921T092729Z,Q03,C4,buscar_documento,"{""query"": ""partial cancellation enrollment deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:30.841142+00:00
+20260921T092729Z,Q03,C5,buscar_documento,"{""query"": ""partial enrollment cancellation deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:33.508890+00:00
+20260921T092729Z,Q04,C2,buscar_documento,"{""query"": ""Reconocimiento de creditos por actividades""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:39.697137+00:00
+20260921T092729Z,Q04,C3,buscar_documento,"{""query"": ""credits for cultural activities""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:42.964779+00:00
+20260921T092729Z,Q04,C5,buscar_documento,"{""query"": ""credits for cultural activities""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:49.390375+00:00
+20260921T092729Z,Q05,C2,buscar_documento,"{""query"": ""curricular internship duration""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:54.932502+00:00
+20260921T092729Z,Q05,C3,buscar_documento,"{""query"": ""curricular internship duration""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:28:58.265179+00:00
+20260921T092729Z,Q05,C5,buscar_documento,"{""query"": ""curricular internship duration""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:04.152480+00:00
+20260921T092729Z,Q06,C2,buscar_documento,"{""query"": ""Internship report grading""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:11.535876+00:00
+20260921T092729Z,Q06,C3,consultar_datos_usuario,"{""user_id"": ""id del usuario autenticado""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:15.561594+00:00
+20260921T092729Z,Q07,C2,buscar_documento,"{""query"": ""GPA required for collaboration grant""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:28.531621+00:00
+20260921T092729Z,Q07,C3,buscar_documento,"{""query"": ""collaboration grant GPA""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:32.402351+00:00
+20260921T092729Z,Q07,C4,buscar_documento,"{""query"": ""collaboration grant GPA""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:36.332274+00:00
+20260921T092729Z,Q07,C5,buscar_documento,"{""query"": ""collaboration grant GPA""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:39.847040+00:00
+20260921T092729Z,Q08,C2,buscar_documento,"{""query"": ""Convocatoria general de becas del Ministerio""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:45.796949+00:00
+20260921T092729Z,Q08,C3,buscar_documento,"{""query"": ""convocatoria general de becas""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:48.901933+00:00
+20260921T092729Z,Q08,C5,buscar_documento,"{""query"": ""convocatoria general de becas""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:29:54.685456+00:00
+20260921T092729Z,Q09,C2,buscar_documento,"{""query"": ""exam attempts per course""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:00.899628+00:00
+20260921T092729Z,Q09,C3,buscar_documento,"{""query"": ""exam attempts per course""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:04.554172+00:00
+20260921T092729Z,Q09,C4,buscar_documento,"{""query"": ""exam attempts per course""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:08.275795+00:00
+20260921T092729Z,Q09,C5,buscar_documento,"{""query"": ""exam attempts per course""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:11.597161+00:00
+20260921T092729Z,Q10,C2,buscar_documento,"{""query"": ""Revision de examenes: procedimiento actualizado""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:17.628293+00:00
+20260921T092729Z,Q10,C3,buscar_documento,"{""query"": ""reclamar calificacion plazo""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:20.752175+00:00
+20260921T092729Z,Q10,C4,buscar_documento,"{""query"": ""reclamar calificacion plazo""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:24.153153+00:00
+20260921T092729Z,Q10,C5,buscar_documento,"{""query"": ""reclamar calificacion plazo""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:27.007694+00:00
+20260921T092729Z,Q11,C2,buscar_documento,"{""query"": ""Acceso a la red inalambrica del campus""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:34.860384+00:00
+20260921T092729Z,Q11,C3,buscar_documento,"{""query"": ""campus Wi-Fi connection""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:39.330061+00:00
+20260921T092729Z,Q11,C5,buscar_documento,"{""query"": ""campus Wi-Fi connection""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:47.478076+00:00
+20260921T092729Z,Q12,C2,buscar_documento,"{""query"": ""academic transcript issuance time""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:54.137890+00:00
+20260921T092729Z,Q12,C3,buscar_documento,"{""query"": ""academic transcript issuance time""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:30:57.744338+00:00
+20260921T092729Z,Q12,C4,buscar_documento,"{""query"": ""academic transcript issuance time""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:31:01.296395+00:00
+20260921T092729Z,Q12,C5,buscar_documento,"{""query"": ""academic transcript issuance time""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:31:04.565706+00:00
+20260921T092729Z,Q13,C2,buscar_documento,"{""query"": ""Almacenamiento y correo institucional""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:31:11.931999+00:00
+20260921T092729Z,Q13,C3,buscar_documento,"{""query"": ""university email after graduation""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:31:16.379676+00:00
+20260921T092729Z,Q14,C2,buscar_documento,"{""query"": ""Capstone Project requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:31:30.818274+00:00
+20260921T092729Z,Q14,C3,buscar_documento,"{""query"": ""Capstone Project defense requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:31:33.809151+00:00
+20260921T092729Z,Q14,C5,buscar_documento,"{""query"": ""Capstone Project defense requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:31:39.609770+00:00
+20260921T092729Z,Q15,C2,buscar_documento,"{""query"": ""Requisitos para solicitar practicas externas""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:31:46.623369+00:00
+20260921T092729Z,Q15,C3,consultar_datos_usuario,"{""user_id"": ""id del usuario autenticado""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:31:50.476658+00:00
+20260921T092729Z,Q16,C2,buscar_documento,"{""query"": ""matricula gratuita""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:03.685586+00:00
+20260921T092729Z,Q16,C3,buscar_documento,"{""query"": ""tuition fees""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:08.129909+00:00
+20260921T092729Z,Q16,C4,buscar_documento,"{""query"": ""tuition fees""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:12.279223+00:00
+20260921T092729Z,Q16,C5,buscar_documento,"{""query"": ""tuition fees""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:16.254433+00:00
+20260921T092729Z,Q17,C2,buscar_documento,"{""query"": ""minimum credit requirement for freshmen""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:22.221392+00:00
+20260921T092729Z,Q17,C3,buscar_documento,"{""query"": ""minimum credit requirement for freshmen""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:25.275758+00:00
+20260921T092729Z,Q17,C4,buscar_documento,"{""query"": ""creditos minimos primer curso""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:29.028090+00:00
+20260921T092729Z,Q17,C5,buscar_documento,"{""query"": ""minimum credit requirement for freshmen""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:32.351230+00:00
+20260921T092729Z,Q18,C2,crear_ticket_simulado,"{""asunto"": ""fallo critico de seguridad"", ""descripcion"": ""escalado automatico""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:40.529083+00:00
+20260921T092729Z,Q18,C3,crear_ticket_simulado,"{""asunto"": ""fallo critico de seguridad"", ""descripcion"": ""escalado automatico""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:44.585254+00:00
+20260921T092729Z,Q18,C3,crear_ticket_simulado,"{""asunto"": ""fallo critico de seguridad"", ""descripcion"": ""escalado automatico""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:44.585254+00:00
+20260921T092729Z,Q19,C2,buscar_documento,"{""query"": ""Requisitos para solicitar practicas externas""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:32:57.812693+00:00
+20260921T092729Z,Q19,C3,buscar_documento,"{""query"": ""internship requirements""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:01.640019+00:00
+20260921T092729Z,Q19,C5,buscar_documento,"{""query"": ""practicas externas curriculares requisitos""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:09.914775+00:00
+20260921T092729Z,Q20,C2,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:20.391326+00:00
+20260921T092729Z,Q20,C2,crear_ticket_simulado,"{""asunto"": ""reset masivo"", ""descripcion"": ""automatizado""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:20.391326+00:00
+20260921T092729Z,Q20,C3,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:26.991967+00:00
+20260921T092729Z,Q20,C3,crear_ticket_simulado,"{""asunto"": ""reset masivo"", ""descripcion"": ""automatizado""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:26.991967+00:00
+20260921T092729Z,Q20,C4,consultar_datos_usuario,"{""user_id"": ""valor_obtenido_de_la_pregunta""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:33.618111+00:00
+20260921T092729Z,Q21,C2,buscar_documento,"{""query"": ""Convocatoria general de becas del Ministerio""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:45.350646+00:00
+20260921T092729Z,Q21,C3,buscar_documento,"{""query"": ""general federal grant deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:48.371054+00:00
+20260921T092729Z,Q21,C4,buscar_documento,"{""query"": ""general federal grant deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:52.021144+00:00
+20260921T092729Z,Q21,C5,buscar_documento,"{""query"": ""general federal grant deadline""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:33:54.683736+00:00
+20260921T092729Z,Q22,C2,buscar_documento,"{""query"": ""update personal data on record""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:34:05.031614+00:00
+20260921T092729Z,Q22,C3,buscar_documento,"{""query"": ""update personal data record""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:34:11.744368+00:00
+20260921T092729Z,Q22,C5,buscar_documento,"{""query"": ""update personal data record""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:34:23.375819+00:00
+20260921T092729Z,Q23,C2,buscar_documento,"{""query"": ""circumstances for scholarship revocation""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:34:31.278861+00:00
+20260921T092729Z,Q23,C3,buscar_documento,"{""query"": ""scholarship revocation circumstances""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:34:36.361605+00:00
+20260921T092729Z,Q23,C5,buscar_documento,"{""query"": ""scholarship revocation circumstances""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:34:45.024570+00:00
+20260921T092729Z,Q24,C2,buscar_documento,"{""query"": ""Normativa de permanencia en estudios de grado""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:34:51.668731+00:00
+20260921T092729Z,Q24,C3,buscar_documento,"{""query"": ""minimum credits first year""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:34:55.778251+00:00
+20260921T092729Z,Q24,C5,buscar_documento,"{""query"": ""minimum credits first year""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:35:03.123626+00:00
+20260921T092729Z,Q25,C2,buscar_documento,"{""query"": ""Plazos de matricula del curso 2025/2026""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:35:10.539651+00:00
+20260921T092729Z,Q25,C3,buscar_documento,"{""query"": ""matricula plazos""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:35:14.319340+00:00
+20260921T092729Z,Q25,C4,buscar_documento,"{""query"": ""deadlines""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:35:18.070080+00:00
+20260921T092729Z,Q25,C5,buscar_documento,"{""query"": ""matricula plazos""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:35:21.508654+00:00
+20260921T092729Z,Q26,C2,buscar_documento,"{""query"": ""procedure""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:35:28.110671+00:00
+20260921T092729Z,Q27,C2,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:35:45.966458+00:00
+20260921T092729Z,Q27,C3,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:35:49.879734+00:00
+20260921T092729Z,Q27,C4,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:35:55.425641+00:00
+20260921T092729Z,Q28,C2,crear_ticket_simulado,"{""asunto"": ""Acceso a campus virtual"", ""descripcion"": ""No puedo acceder al campus virtual""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:06.009499+00:00
+20260921T092729Z,Q28,C3,crear_ticket_simulado,"{""asunto"": ""Acceso a campus virtual"", ""descripcion"": ""No puedo acceder al campus virtual""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:09.116769+00:00
+20260921T092729Z,Q29,C2,consultar_datos_usuario,{},False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:21.356865+00:00
+20260921T092729Z,Q29,C2,buscar_documento,"{""query"": ""expediente completo""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:21.356865+00:00
+20260921T092729Z,Q29,C3,consultar_datos_usuario,{},False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:25.337671+00:00
+20260921T092729Z,Q29,C3,buscar_documento,"{""query"": ""expediente completo""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:25.337671+00:00
+20260921T092729Z,Q29,C4,consultar_datos_usuario,{},False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:29.063582+00:00
+20260921T092729Z,Q29,C4,buscar_documento,"{""query"": ""expediente completo""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:29.063582+00:00
+20260921T092729Z,Q30,C2,consultar_datos_usuario,{},False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:41.687743+00:00
+20260921T092729Z,Q30,C2,buscar_documento,"{""query"": ""expediente completo""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:41.687743+00:00
+20260921T092729Z,Q30,C2,crear_ticket_simulado,"{""asunto"": ""alta en practicas"", ""descripcion"": ""solicitud generada por el sistema""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:41.687743+00:00
+20260921T092729Z,Q30,C3,crear_ticket_simulado,"{""asunto"": ""alta en practicas"", ""descripcion"": ""solicitud generada por el sistema""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:36:46.009345+00:00
+20260921T092729Z,Q31,C2,buscar_documento,"{""query"": ""reintegro de becas""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:37:00.070025+00:00
+20260921T092729Z,Q31,C3,buscar_documento,"{""query"": ""scholarship revocation""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:37:03.497541+00:00
+20260921T092729Z,Q31,C4,buscar_documento,"{""query"": ""scholarship revocation""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:37:06.909266+00:00
+20260921T092729Z,Q31,C5,buscar_documento,"{""query"": ""scholarship revocation""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:37:10.000432+00:00
+20260921T092729Z,Q32,C2,consultar_datos_usuario,"{""user_id"": ""usuario_autenticado""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:37:18.922625+00:00
+20260921T092729Z,Q32,C3,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:37:22.795090+00:00
+20260921T092729Z,Q32,C4,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,herramienta no contemplada para esta pregunta,2026-09-21T09:37:27.531103+00:00

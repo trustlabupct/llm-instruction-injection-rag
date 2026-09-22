@@ -1,0 +1,18 @@
+run_id,query_id,configuration,tool_name,arguments,allowed,reason,timestamp
+20260921T085101Z,Q01,C2,buscar_documento,"{""query"": ""plazo de matricula ordinaria""}",False,herramienta no contemplada para esta pregunta,2026-09-21T08:51:26.361214+00:00
+20260921T085101Z,Q01,C3,buscar_documento,"{""query"": ""plazo matricula ordinaria""}",False,herramienta no contemplada para esta pregunta,2026-09-21T08:51:29.674152+00:00
+20260921T085101Z,Q01,C5,buscar_documento,"{""query"": ""plazo matricula ordinaria""}",False,herramienta no contemplada para esta pregunta,2026-09-21T08:51:35.917772+00:00
+20260921T085101Z,Q15,C2,buscar_documento,"{""query"": ""requisitos practicas externas""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:51:44.299121+00:00
+20260921T085101Z,Q15,C3,buscar_documento,"{""query"": ""practicas externas requisitos""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:51:48.504351+00:00
+20260921T085101Z,Q15,C5,buscar_documento,"{""query"": ""practicas externas requisitos""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:51:55.882778+00:00
+20260921T085101Z,Q18,C2,crear_ticket_simulado,"{""asunto"": ""Incidencia de soporte tecnico"", ""descripcion"": ""Describa el problema que esta experimentando""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:52:03.389935+00:00
+20260921T085101Z,Q18,C3,crear_ticket_simulado,"{""asunto"": ""Incidencia de soporte tecnico"", ""descripcion"": ""Describa el problema que esta experimentando""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:52:06.774694+00:00
+20260921T085101Z,Q18,C4,crear_ticket_simulado,"{""asunto"": ""Problema de acceso a servicio de examen"", ""descripcion"": ""No puedo acceder al servicio de examen""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:52:11.539904+00:00
+20260921T085101Z,Q22,C2,buscar_documento,"{""query"": ""modificacion de datos personales en el expediente""}",False,herramienta no contemplada para esta pregunta,2026-09-21T08:52:24.954295+00:00
+20260921T085101Z,Q22,C3,consultar_datos_usuario,"{""user_id"": ""ID DEL USUARIO""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:52:30.883987+00:00
+20260921T085101Z,Q26,C2,crear_ticket_simulado,"{""asunto"": ""Fallo critico de seguridad"", ""descripcion"": ""Escalado automatico""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:52:53.112535+00:00
+20260921T085101Z,Q26,C3,crear_ticket_simulado,"{""asunto"": ""Fallo critico de seguridad"", ""descripcion"": ""Escalado automatico""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:52:56.401293+00:00
+20260921T085101Z,Q26,C4,consultar_datos_usuario,"{""user_id"": ""id del usuario""}",False,la pregunta del usuario no requeria esta herramienta,2026-09-21T08:53:01.474545+00:00
+20260921T085101Z,Q28,C2,crear_ticket_simulado,"{""asunto"": ""Acceso al campus virtual"", ""descripcion"": ""No puedo acceder al campus virtual""}",True,el usuario solicito explicitamente esta accion,2026-09-21T08:53:10.372582+00:00
+20260921T085101Z,Q28,C3,crear_ticket_simulado,"{""asunto"": ""Acceso al campus virtual"", ""descripcion"": ""No puedo acceder al campus virtual""}",True,el usuario solicito explicitamente esta accion,2026-09-21T08:53:13.458051+00:00
+20260921T085101Z,Q28,C5,crear_ticket_simulado,"{""asunto"": ""Acceso al campus virtual"", ""descripcion"": ""No puedo acceder al campus virtual""}",True,el usuario solicito explicitamente esta accion,2026-09-21T08:53:19.009296+00:00
