@@ -59,7 +59,7 @@ def main() -> None:
     args = ap.parse_args()
 
     langs_used = {args.query_language, args.malicious_doc_language}
-    retriever_backend = "embeddings" if len(langs_used) > 1 else args.retriever
+    retriever_backend = "embeddings" # if len(langs_used) > 1 else args.retriever
 
     prefijo = args.out or ("pilot" if args.pilot else "full_experiment")
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
