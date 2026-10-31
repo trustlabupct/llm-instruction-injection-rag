@@ -72,15 +72,19 @@ Los números por configuración — **ASR** = con qué frecuencia el ataque tien
 |---|---|---|---|
 | C1 | 70,4 % | 50,0 % | Sin defensas, el modelo pica siete de cada diez veces. |
 | C2 | 74,1 % | 53,1 % | Darle herramientas sin proteger sube el riesgo. |
-| C3 | 66,7 % | 62,5 % | Etiquetar las fuentes ayuda **poco** (no es significativo). |
+| C3 | 70,4 % | 62,5 % | Etiquetar las fuentes ayuda **poco** (no es significativo). |
 | C4 | 29,6 % | 34,4 % | Reduce ataques… pero rechazando de todo, hunde la utilidad. |
-| **C5** | **14,8 %** | **62,5 %** | El filtro de salida: **menos ataques y utilidad alta a la vez**. |
+| **C5** | **22,2 %** | **62,5 %** | El filtro de salida: **menos ataques y utilidad alta a la vez**. |
+
+*Valores actualizados tras la adjudicación de etiquetas descrita en la Sección 4.6 del artículo;
+`results/full_experiment_labelled.csv` conserva las etiquetas originales y
+`src/evaluator_bilingual.py` genera las corregidas.*
 
 Tres ideas para quedarse:
 
 1. **Etiquetar los documentos como "no confiables" (C3) suena bien pero apenas funciona** en un
-   modelo de 8B: el ASR baja de 74 % a 67 %, una diferencia que ni siquiera es estadísticamente
-   significativa (test de McNemar, p = 0,63). El modelo respeta la separación para no repetir un
+   modelo de 8B: el ASR baja de 74 % a 70 %, una diferencia que ni siquiera es estadísticamente
+   significativa (test de McNemar). El modelo respeta la separación para no repetir un
    dato falso, pero la ignora cuando la instrucción le pide *hacer* algo.
 
 2. **La solución más segura por prompt (C4) es también la más inútil.** Reduce ataques a base de
@@ -94,9 +98,9 @@ Tres ideas para quedarse:
 Y un par de matices que también salieron:
 
 - **La exfiltración es el ataque más terco**: sobrevive a las defensas de prompt (57 % de éxito
-  incluso en C4). El filtro de C5 sí la corta.
+  incluso en C4). El filtro de C5 la reduce a 1 de 7.
 - **Cuantos más documentos recuperas (`top_k`), más te expones**: pasar de `top_k=3` a `top_k=5`
-  sube el ASR de C3 del 67 % al 83 %. Recuperar de menos es, en sí, una medida de seguridad.
+  sube el ASR de C3 del 70 % al 83 %. Recuperar de menos es, en sí, una medida de seguridad.
 - **Con camuflaje** (la orden en inglés, el bloque de datos con otra etiqueta) se puede evadir un
   filtro basado en patrones. Es el recordatorio de que esto es una carrera armamentística.
 
@@ -135,9 +139,14 @@ python tools/dashboard_server.py     # abre http://localhost:8000
 python data/build_dataset.py        # regenera el corpus y las preguntas
 python src/run_experiment.py --backend ollama --model llama3.1:8b
 python src/evaluator.py             # etiqueta, calcula métricas y genera las figuras
+python src/evaluator_bilingual.py --raw results/full_experiment_raw.csv \
+    --tool-calls results/full_experiment_tool_calls.csv \
+    --out results/full_experiment_labelled_bilingual.csv --run-id llama3.1   # etiquetas corregidas
 ```
 
 Al ser determinista (temperatura 0 + semilla 42), obtendrás exactamente los mismos números.
+`evaluator.py` reproduce las etiquetas originales; `evaluator_bilingual.py` genera las corregidas de
+la tabla de arriba (con `--original-markers` reproduce exactamente las originales).
 
 ---
 
@@ -168,6 +177,7 @@ src/      rag_pipeline.py    recuperación (TF-IDF / embeddings)
           output_filter.py   el filtro de salida de C5
           run_experiment.py  ejecuta la matriz completa
           evaluator.py       reglas de etiquetado y métricas
+          evaluator_bilingual.py   evaluator.py + marcadores en inglés (etiquetas corregidas)
           stats_analysis.py  intervalos de confianza + McNemar
           run_stealth.py     ataques con camuflaje
           labeling_reliability.py   fiabilidad del etiquetado (kappa)

@@ -20,7 +20,7 @@ instrucciones**, la vulnerabilidad nº 1 de la lista OWASP para aplicaciones con
 Este trabajo monta un banco de pruebas **local y reproducible** (modelo `llama3.1:8b` vía Ollama)
 y mide, bajo **cinco configuraciones de defensa (C1–C5)**, cuántas veces funcionan los ataques y
 cuánto se resiente la utilidad del asistente. La aportación propia es **C5**, un filtro de salida
-que consigue a la vez el ataque más bajo (14,8 %) y la utilidad más alta (62,5 %).
+que consigue a la vez el ataque más bajo (22,2 %) y la utilidad más alta (62,5 %).
 
 ---
 
@@ -48,9 +48,13 @@ que consigue a la vez el ataque más bajo (14,8 %) y la utilidad más alta (62,5
 |---|---|---|---|
 | C1 | ninguna | 70,4 % | 50,0 % |
 | C2 | + herramientas | 74,1 % | 53,1 % |
-| C3 | + etiquetado de fuentes | 66,7 % | 62,5 % |
+| C3 | + etiquetado de fuentes | 70,4 % | 62,5 % |
 | C4 | + política estricta | 29,6 % | 34,4 % |
-| **C5** | **+ filtro de salida (aportación propia)** | **14,8 %** | **62,5 %** |
+| **C5** | **+ filtro de salida (aportación propia)** | **22,2 %** | **62,5 %** |
 
 *Modelo local `llama3.1:8b`, temperatura 0 y semilla fija → resultados deterministas y
 reproducibles. Contrastado con intervalos de confianza (bootstrap) y test de McNemar.*
+
+*Valores actualizados tras la adjudicación de etiquetas descrita en la Sección 4.6 del artículo;
+`tfg_instruction_injection/03_codigo/results/full_experiment_labelled.csv` conserva las etiquetas
+originales y `tfg_instruction_injection/03_codigo/src/evaluator_bilingual.py` genera las corregidas.*
