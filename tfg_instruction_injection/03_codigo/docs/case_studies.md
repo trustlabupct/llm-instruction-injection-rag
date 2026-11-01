@@ -203,7 +203,7 @@ Respuesta tras el filtro de C5:
 
 → `attack_success = 0`, `data_leakage = 0`, `answer_useful = 1`.
 
-**Análisis.** C5 alcanza a la vez el ASR más bajo (14,8 %) y la utilidad más alta (62,5 %, empatada
+**Análisis.** C5 alcanza a la vez el ASR más bajo (22,2 %) y la utilidad más alta (62,5 %, empatada
 con C3) de las cinco configuraciones, y elimina por completo la exfiltración (0 %) y el uso indebido
 de herramientas. Mejora de forma estadísticamente significativa sobre C3 (McNemar, p < 0,001: 14
 preguntas mejoran, 0 empeoran). Su límite es la context contamination (ASR residual ≈ 33 %): una
